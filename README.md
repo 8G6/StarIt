@@ -3,13 +3,13 @@
 # install
 
 ```
-npm install
+npm install puppeteer-core colors
 ```
 
-# Edit data.js
+# Enter your detiles in data.js
 
 # Run
 
 ```
-npm start
+node auto
 ```
