@@ -1,0 +1,24 @@
+{
+  "name": "star_all_repo_of_your_followers",
+  "version": "1.0.0",
+  "description": "Use puppeteer to star repos of all your followers",
+  "main": "auto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node auto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8G6/Star_all_repo_of_your_followers.git"
+  },
+  "author": "8G6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8G6/Star_all_repo_of_your_followers/issues"
+  },
+  "homepage": "https://github.com/8G6/Star_all_repo_of_your_followers#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "puppeteer-core": "^10.1.0"
+  }
+}
