@@ -3,7 +3,7 @@
 # install
 
 ```
-npm install puppeteer-core colors
+npm install
 ```
 
 # Enter your detiles in data.js
@@ -11,5 +11,5 @@ npm install puppeteer-core colors
 # Run
 
 ```
-node auto
+npm start
 ```
