@@ -6,7 +6,7 @@ let Name,arch
          let email=$('#email').value 
          let password=$('#password').value
          let user=$('#user').value
-         let timeout=$('#timeout').value ? $('#timeout').value : 10000
+         let timeout=$('#timeout').value ? $('#timeout').value : 70000
          a=email=='' ? alert('Enter GitHub Email') : 1
          b=password=='' ? alert('Enter GitHub Password') : 1
          c=user=='' && Name=='Windows' ? alert('Enter Your user name') : 1

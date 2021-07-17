@@ -29,7 +29,7 @@ browser = (os,brow,arch,user) => {
         }
         else if(arch=='x64'){
             if(brow=='chrome')[path.binary,path.cookie]=[cwin64,ccookie] 
-            else if(brow=='brave')[ path.binary,path.cookie]= [bcookie,bwin64]
+            else if(brow=='brave')[ path.binary,path.cookie]= [bwin64,bcookie]
         }
         return path
     } 
