@@ -4,7 +4,11 @@
   "description": "Use puppeteer to star repos of all your followers",
   "main": "auto.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "nodemon auto",
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+>>>>>>> 3045994ad12a271c0f4ff120f346a1b06fa4c212
     "start": "node auto"
   },
   "repository": {
