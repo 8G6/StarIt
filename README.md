@@ -1,4 +1,4 @@
-## Star_all_repo_of_your_followers
+## StarIt
 
 # install
 
