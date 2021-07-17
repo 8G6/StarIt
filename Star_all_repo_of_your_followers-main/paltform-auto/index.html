@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='css/stylesheet' href="css/main.css">
+    <title>Document</title>
+    
+</head>
+<body onload="load()">
+    <script src="js/main.js"> </script>
+    <script src="js/paltform.js"> </script>
+    <h1>Genarate Your Confing data.js to fire up staring</h1>
+    <h2 style="color: red;">Warning</h2>
+    <p style="color: sandybrown;">
+         This Genartor will create a  confing files with defualt browser and cookie path <br> if your browser is installed on another dir confing genarated by this Document wont work
+    </p>
+        <table>
+            <tr>
+                <td>GitHub Email</td>
+                <td>:</td>
+                <td> <input type='email' id='email'></td>
+            </tr>
+            <tr>
+                <td>GitHub Password</td>
+                <td>:</td>
+                <td><input type="password"  id="password"></td>
+            </tr>
+            <tr id='win'>
+                <td>Your windows user name</td>
+                <td>:</td>
+                <td><input type="text"  id="user"></td>
+            </tr>
+            <tr>
+                <td>Timeout</td>
+                <td>:</td>
+                <td><input type="number"  id="timeout" value=10000 placeholder="depends on internet speed"></td>
+            </tr>
+        </table>
+    <button onclick="make()">Create</button>
+    <br>
+    <a>Download</a>  
+</body>
+</html>
