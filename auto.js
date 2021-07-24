@@ -1,6 +1,6 @@
 const { get_follow, get_repos, star, star_check } = require('./fun');
 const { login, primary, secondly, wait } = require('./async');
-const { options, timeout, password, email } = require('./data_1');
+const { options, timeout, password, email } = require('./data');
 const puppeteer = require('puppeteer-core');
 const logger = require('./logger');
 const NAMESPACE = 'Auto';
