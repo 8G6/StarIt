@@ -1,6 +1,6 @@
 ## StarIt
 A automated package to star all repos of your followers
-Speed depeds up on
+Speed depends up on
 - System Specs
 - Internet Connection Speed
 # install
