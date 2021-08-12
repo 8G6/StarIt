@@ -1,5 +1,5 @@
 ## StarIt
-A automated package to star all repos of your flowwers
+A automated package to star all repos of your followers
 Speed depeds up on
 - System Specs
 - Internet Connection Speed
@@ -23,3 +23,6 @@ npm install
 ```
 npm start
 ```
+# Contributor
+- [Gokul Sreejith](/GokulSreejith)
+- [Shine Santhosh](/shinesanthosh)
