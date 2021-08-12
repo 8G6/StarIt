@@ -1,5 +1,5 @@
 ## StarIt
-A automated package to star all repos of your followers <br>
+A automated package to star all repos of your followers <br><br>
 Speed depends up on
 - System Specs
 - Internet Connection Speed
