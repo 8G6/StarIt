@@ -16,7 +16,7 @@ const { options,
         email      } = require('./config/data');
 
 const { info }       = require('./actions/logger');
-
+NAMESPACE            = 'Auto'
 
 (async () => {
   const browser = await puppeteer.launch(options);
