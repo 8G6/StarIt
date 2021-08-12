@@ -23,6 +23,12 @@ npm install
 ```
 npm start
 ```
-# Contributor
-- [Gokul Sreejith](https://github.com/GokulSreejith)
-- [Shine Santhosh](https://github.com/shinesanthosh)
+# Contributors
+
+## [Gokul Sreejith](https://github.com/GokulSreejith)
+## Thank him for
+- Linux Platform update
+- Cool looging info update
+## [Shine Santhosh](https://github.com/shinesanthosh)
+## Thank him for
+- Stablity Update
