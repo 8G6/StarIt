@@ -1,6 +1,6 @@
 {
-  "name": "star_all_repo_of_your_followers",
-  "version": "1.0.1",
+  "name": "StarIt",
+  "version": "1.1.1",
   "description": "Use puppeteer to star repos of all your followers",
   "main": "auto.js",
   "scripts": {

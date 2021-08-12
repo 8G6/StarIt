@@ -1,32 +1,32 @@
 require('colors');
 print = (text, clr = 'green') => {
-  eval(`text=text.${clr};`);
-  console.log(text);
-};
+        eval(`text=text.${clr};`);
+        console.log(text);
+      };
 
 const info = (namespace, message, color = 'green') => {
-  print(`${getTimeStamp()} [${namespace}] [INFO] ${message}`, color);
-};
+      print(`${getTimeStamp()} [${namespace}] [INFO] ${message}`, color);
+    };
 
 const error = (namespace, message, color = 'red') => {
-  print(`${getTimeStamp()} [[${namespace}] ERROR] ${message}`, color);
-};
+       print(`${getTimeStamp()} [[${namespace}] ERROR] ${message}`, color);
+    };
 
 const warn = (namespace, message, color = 'yellow') => {
-  print(`${getTimeStamp()} [${namespace}] [WARN] ${message}`, color);
-};
+      print(`${getTimeStamp()} [${namespace}] [WARN] ${message}`, color);
+  };
 
 const debug = (namespace, message, color = 'blue') => {
-  print(`${getTimeStamp()} [[${namespace}] DEBUG] ${message}`, color);
-};
+      print(`${getTimeStamp()} [[${namespace}] DEBUG] ${message}`, color);
+  };
 
 const getTimeStamp = () => {
-  return new Date().toLocaleString();
-};
+      return new Date().toLocaleString().replace('pm','PM').replace('am','AM');
+  };
 
 module.exports = {
-  info,
-  error,
-  warn,
-  debug,
-};
+                  info,
+                  error,
+                  warn,
+                  debug,
+                 };
