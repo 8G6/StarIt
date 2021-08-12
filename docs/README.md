@@ -1,5 +1,8 @@
 ## StarIt
-
+A automated package to star all repos of your flowwers
+Speed depeds up on
+- System Specs
+- Internet Connection Speed
 # install
 
 ```
