@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const puppeteer      = require('puppeteer-core')
 
 const { get_follow, 
@@ -17,26 +17,6 @@ const { options,
 
 const { info }       = require('./actions/logger');
 
-const NAMESPACE      = 'Auto';
-
-=======
-
-const puppeteer = require('puppeteer-core');
-
-const { get_follow, get_repos, star, star_check } = require('./actions/fun');
-const { login, primary, secondly}                 = require('./actions/async');
-const { options, timeout, password, email }       = require('./data');
-const {info}                                      = require('./actions/logger');
-
-=======
-const { get_follow, get_repos, star, star_check } = require('./fun');
-const { login, primary, secondly, wait } = require('./async');
-const { options, timeout, password, email } = require('./data');
-const puppeteer = require('puppeteer-core');
-const logger = require('./logger');
->>>>>>> 2424812059f610120ab66ac7e2bed9079e7f5667
-const NAMESPACE = 'Auto';
->>>>>>> 9fde3276c75096a0d15e42c828b27b7f4e33dc59
 
 (async () => {
   const browser = await puppeteer.launch(options);
@@ -80,10 +60,7 @@ const NAMESPACE = 'Auto';
   
   info(NAMESPACE, 'Browser Closed');
 })();
-<<<<<<< HEAD
 
- 
-=======
 
   logger.info(NAMESPACE, 'Opned browser with given options', 'blue');
 
@@ -113,4 +90,4 @@ const NAMESPACE = 'Auto';
   await browser.close();
   logger.info(NAMESPACE, 'Browser Closed');
 })();
->>>>>>> 9fde3276c75096a0d15e42c828b27b7f4e33dc59
+
