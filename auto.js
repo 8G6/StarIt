@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const puppeteer = require('puppeteer-core');
 
 const { get_follow, get_repos, star, star_check } = require('./actions/fun');
@@ -48,12 +48,12 @@ const NAMESPACE = 'Auto';
   await browser.close();
   info(NAMESPACE, 'Browser Closed');
 })();
-=======
+
   logger.info(NAMESPACE, 'Opned browser with given options', 'blue');
 
   const page = await browser.newPage();
   logger.info(NAMESPACE, 'Opened newtab in browser', 'blue');
->>>>>>> 2424812059f610120ab66ac7e2bed9079e7f5667
+
 
   await page.setDefaultNavigationTimeout(timeout);
   await page.goto('https://github.com/8G6?tab=followers').then(() => {
