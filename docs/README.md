@@ -16,7 +16,7 @@ npm install
 - Enter deatils asked if you are already logged in github given some dummy data as email and password ( Using cookies )
 - Click on the "Create button"
 - Then the "download" will be hyperlinked to file download url.Click it and download data.js
-- Copy or Cut this file from your downloads and paste it to path of where you downloaded/cloned StarIt
+- Copy or Cut this file from your downloads and paste it to path of where you downloaded/cloned StarIt (in the config folder)
 
 # Run
 
