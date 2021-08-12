@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 node_modules
 *.rar
@@ -5,3 +6,9 @@ node_modules
 =======
 node_modules
 
+=======
+node_modules
+*.rar
+*.zip
+data.js
+>>>>>>> 2424812059f610120ab66ac7e2bed9079e7f5667
