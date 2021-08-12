@@ -10,7 +10,7 @@ npm install
 ```
 # Steps to Configure
 
-- Goto [StarIt Config Gen](https://8g6.github.io/StartIt-Config-Gen/)
+- Goto [StarIt Config Gen](8g6.github.io/StartIt-Config-Gen/)
 - This genarator will create a data.js file which is the configrational file needed for StarIt 
 - The browser in which you vist this page will be used to automate staring
 - Enter deatils asked if you are already logged in github given some dummy data as email and password ( Using cookies )
@@ -24,5 +24,5 @@ npm install
 npm start
 ```
 # Contributor
-- [Gokul Sreejith](/GokulSreejith)
-- [Shine Santhosh](/shinesanthosh)
+- [Gokul Sreejith](github.com/GokulSreejith)
+- [Shine Santhosh](github.com/shinesanthosh)
